@@ -1,0 +1,63 @@
+.special-card {
+  display: flex;
+  flex-direction: column;
+  width: 264px;
+}
+
+.special-image{
+  width: 264px;
+  object-fit: cover;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+.special-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  background: var(--grey-color, #EDEFEE);
+  padding: 1.2em 1.4em 1.25em 1.5em;
+}
+
+.special-header{ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.special-header > p {
+  font-family: Markazi Text;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 90%; /* 21.6px */
+  margin: 0;
+}
+
+.special-header > span {
+  color: var(--color-orange, #EE9972);
+  font-family: Karla;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.special-text{
+  color: var(--primary-color, #495E57);
+  font-family: Karla;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.special-cta{
+  color: var(--dark-color);
+  font-family: var(--text-font);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

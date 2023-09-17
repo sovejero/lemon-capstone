@@ -1,0 +1,37 @@
+.footer {
+  margin-top: auto;
+  padding: 4em 0em;
+}
+
+.footer-menu{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-menu a {
+  color: var(--grey-color);
+  font-family: var(--text-font);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 26px */
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-menu a:hover {
+  color: var(--secondary-color);
+}
+
+.footer-title {
+  padding-bottom: 0.5em;
+  color: var(--secondary-color, #F4CE14);
+  font-family: var(--text-font);
+  font-size: 20px;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.footer-logo {
+  height: 150px;
+}

@@ -1,0 +1,16 @@
+.testimonials {
+  align-items: inherit;
+  padding-top: 7.5em; /* 120px */
+  padding-bottom: 9.5em; /* ~154px */
+  gap: 4em;
+}
+
+.testimonial-cards{
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonial-title{
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,12 @@
+.specials-header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 87px;
+}
+
+.specials-cards {
+  margin: 3em 14em;
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+}

@@ -1,13 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&family=Markazi+Text:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary-color: #495E57;
+  --secondary-color: #F4CE14;
+  --dark-color: #333333;
+  --grey-color: #EDEFEE;
+  --color-white: #FFFFFF;
+  --color-orange: #EE9972;
+  --title-font: 'Markazi text', sans-serif;
+  --text-font: 'Karla', sans-serif;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: var(--text-font);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--title-font);
+  margin: 0;
+}
+
+h1 {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+h2 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+h3 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h4 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 887px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container--column {
+  flex-direction: column;
+}
+
+.background-primary {
+  background-color: var(--primary-color);
+  color: var(--grey-color)
+}
+
+.background-secondary {
+  background-color: var(--color-white);
+  color: var(--dark-color);
 }

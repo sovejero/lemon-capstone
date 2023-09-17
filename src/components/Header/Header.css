@@ -1,0 +1,16 @@
+.header {
+  align-items: center;
+  padding-top: 21px;
+  padding-bottom: 26px;
+}
+
+.header-logo-wrapper {
+  display: flex;
+}
+
+.header-logo {
+  display: flex;
+  margin: 0;
+  padding-right: 1em;
+  max-width: 180px;
+}
