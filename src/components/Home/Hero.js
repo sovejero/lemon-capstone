@@ -11,7 +11,7 @@ const Hero = () => {
             <h1>Little Lemon</h1>
             <h3>Chicago</h3>
             <p className="hero-text">We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
-            <Button title="Reserve a Table"></Button>
+            <Button path="/booking" title="Reserve a Table"></Button>
           </div>
           <div className='hero-image-wrapper'>
             <img className="hero-image" alt="bruchetta" src={heroImg}></img>

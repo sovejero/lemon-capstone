@@ -27,7 +27,7 @@ const CARDS = [
 
 const Specials = () => {
     return (
-      <div className="background-secondary">
+      <div id="menu" className="background-secondary">
         <div className='container container--column'>
           <div className='specials-header'>
             <h2>This weeks specials!</h2>

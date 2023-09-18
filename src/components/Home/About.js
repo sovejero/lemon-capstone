@@ -4,7 +4,7 @@ import img from '../../assets/marioadrian.jpg'
 
 const About = () => {
     return (
-      <div className='background-secondary'>
+      <div id="about" className='background-secondary'>
         <div className='container about'>
           <div className='section-left'>
             <h1>Little Lemon</h1>
