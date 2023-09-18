@@ -12,6 +12,10 @@
   --text-font: 'Karla', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: var(--text-font);
@@ -48,6 +52,13 @@ h3 {
 
 h4 {
   font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+h5 {
+  font-size: 32px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
