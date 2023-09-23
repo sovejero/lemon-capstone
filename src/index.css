@@ -64,6 +64,14 @@ h5 {
   line-height: normal;
 }
 
+input, select {
+  border-radius: 4px;
+  border: 1px solid grey;
+  padding: 0.4em;
+  outline-color : lightblue;
+  margin-bottom: 0.75em;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
