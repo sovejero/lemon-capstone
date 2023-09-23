@@ -1,18 +1,26 @@
-import React from 'react';
-import './Nav.css';
-import { NavLink } from 'react-router-dom';
+import React from "react";
+import "./Nav.css";
+import { NavLink } from "react-router-dom";
 
 const Nav = () => {
-    return (
-        <nav className="nav">
-            <NavLink className="nav-button nav-button--text" to="/">Home</NavLink>
-            <NavLink className="nav-button nav-button--text" to="#about">About</NavLink>
-            <NavLink className="nav-button nav-button--text" to="#menu">Menu</NavLink>
-            <NavLink className="nav-button nav-button--text" to="/booking">Reservations</NavLink>
-            <NavLink className="nav-button nav-button--text" to="##">Order Online</NavLink>
-            <NavLink className="nav-button nav-button--text" to="##">Login</NavLink>
-        </nav>
-    );
-}
+  const navMenu = [
+    { title: 'Home', path: '/' },
+    { title: 'About Us', path: '#about' },
+    { title: 'Menu', path: '#menu' },
+    { title: 'Reservations', path: '/booking' },
+    { title: 'Order Online', path: '##' },
+    { title: 'Login', path: '##' }
+  ];
+
+  return (
+    <nav className="nav">
+      {navMenu.map(({title, path}) => 
+        <NavLink key={title} className="nav-button nav-button--text" to={path}>
+          {title}
+        </NavLink>
+      )}
+    </nav>
+  );
+};
 
 export default Nav;
