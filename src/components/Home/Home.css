@@ -1,4 +1,4 @@
 .home {
-  background-color: var(--grey-color);
+  flex: 1;
   color: var(--dark-color);
 }
