@@ -31,7 +31,6 @@ const BookingForm = ({ submitForm, availableTimes = [], dispatch}) => {
       guests,
       occasion
     }
-    console.log('submited', date, time)
 
     if (formData) {
       submitForm(formData)

@@ -32,14 +32,10 @@ let availableTimesByDate = {
 };
 
 export const updateTimes = (state, action) => {
-  console.log('updateTimes')
-  console.log('state', state)
-  console.log('action', action)
   switch (action.type) {
     case 'INITIALIZE':
       return action.date;
     case 'UPDATE_TIMES':
-      console.log(action.date)
       return availableTimesByDate[action.date]
     case 'GET_TIMES':
       return fetchAPI(action.date);
@@ -54,8 +50,6 @@ export const initializeTimes = () => {
 }
 
 const fetchAPI = (date) => {
-  console.log('fetchapi',date)
-  console.log('Fetch API availabletimesByDate',availableTimesByDate[date])
   if(availableTimesByDate[date]){
     return availableTimesByDate[date]
   }
