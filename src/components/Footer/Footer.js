@@ -20,15 +20,15 @@ const Footer = () => {
 
         <div className='footer-menu'>
           <div className="footer-title">Contact</div>
-          <div>Address</div>
-          <div>Phone Number</div>
-          <div>Email</div>
+          <div>False Street 123</div>
+          <div>123456789</div>
+          <div>contact@little-lemon</div>
         </div>
 
         <div className='footer-menu'>
           <div className="footer-title">Social Media Links</div>
           <div>Social Media</div>
-          <div>Link2</div>
+          <div>Social Media 2</div>
         </div>
       </div>
     </footer>
