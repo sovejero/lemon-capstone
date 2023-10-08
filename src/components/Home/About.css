@@ -23,3 +23,36 @@
   object-fit: cover;
   border-radius: 12px;
 }
+
+@media only screen and (max-width: 600px) {
+  .about-text {
+    font-size: 18px;
+  }
+
+  .section-left {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .about {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    gap: 1em;
+    flex-direction: column;
+  }
+  
+  .about h1 {
+    color: var(--secondary-color)
+  }
+
+  .section-right {
+    text-align: center;
+  }
+  
+  .section-right img{
+    width: 375px;
+    height: 426px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+}

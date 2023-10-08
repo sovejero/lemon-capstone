@@ -35,3 +35,15 @@
 .footer-logo {
   height: 150px;
 }
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    margin-top: auto;
+    padding: 1em 1em;
+    gap: 0.5em;
+  }
+  .footer-logo {
+    height: 100px;
+  }
+}

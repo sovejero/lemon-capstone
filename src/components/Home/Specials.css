@@ -10,3 +10,19 @@
   justify-content: center;
   gap: 3em;
 }
+
+@media only screen and (max-width: 600px) {
+  .specials-header {
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+  }
+
+  .specials-cards {
+    margin: 1em 1em;
+    flex-direction: column;
+    gap: 1em;
+    align-self: center;
+  }
+}

@@ -14,3 +14,19 @@
   display: flex;
   justify-content: center;
 }
+
+@media only screen and (max-width: 600px) {
+  .testimonials {
+    align-items: inherit;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    gap: 1em;
+  }
+  .testimonial-cards {
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    gap: 1em;
+  }
+}
