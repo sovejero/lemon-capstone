@@ -36,8 +36,8 @@ const Testimonials = () => {
         <div className='container container--column testimonials'>
           <div className='testimonial-title'><h4>Testimonials</h4></div>
           <div className='testimonial-cards'>
-            {TESTIMONIALCARDS.map(card => 
-              <TestimonialCard {...card}></TestimonialCard>)
+            {TESTIMONIALCARDS.map((card,index) => 
+              <TestimonialCard key={index} {...card}></TestimonialCard>)
             }
           </div>
         </div>
